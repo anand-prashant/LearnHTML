@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnHTML</title>
+    <link rel="icon" type="image/png" href="../Media/favicon.png">
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <header>
+        <nav aria-label="Main navigation">
+            <div class="nav-container">
+                <a href="../index.html" class="logo-link" target="_blank">
+                    <img src="../Media/logo.png" alt="LearnHTML Logo" height="40">
+                </a>
+                <ul class="nav-menu">
+                    <li><a href="../Directories/Learn.html" target="_blank">Learn</a>
+                    </li>
+                    <li><a href="../Directories/About.html" target="_blank">About</a>
+                    </li>
+                    <li><a href="../Directories/Contact.html" target="_blank">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="header-content">
+            <h1>Chapter 5: Lists, Tables and Forms</h1>
+        </div>
+    </header>
+    <main>
+        <h2>Lists</h2>
+        <p>Lists are used to display content which represents a list.</p>
+        <p>We will be studying two types of lists:</p>
+
+        <hr>
+        <ol class="smart">
+            <li>Unordered List (whose tag is <b></b>&lt;ul&gt;</b>)</li>
+            <li>Ordered List (whose tag is <b></b>&lt;ol&gt;</b>)</li>
+        </ol> 
+
+        <h2></h2>
+        <h3 style="color: rgb(190, 126, 6);">Unordered List</h3>
+        <p>An unordered list is used to list items that do not have a specific order.</p>
+        <p>If the items are monitor, mouse, keyboard, then in unordered list, we get this type of list:</p>
+        <hr>
+        <ul class="smart">
+            <li>Monitor</li>
+            <li>Mouse</li>
+            <li>Keyboard</li>
+        </ul>
+        <hr>
+        <p>And it's code is written as:</p>
+        <center><img src="../Media/Img/19.png" alt="" height="100"></center>
+<h2></h2>
+        <h3  style="color: rgb(190, 126, 6);"> Ordered List</h3>
+        <p>An ordered list is used to list items in a specific order, typically numbered.</p>
+        <p>If the items are monitor, mouse, keyboard, then in ordered list, we get this type of list:</p>
+        <hr>
+        <ol class="smart">
+            <li>Monitor</li>
+            <li>Mouse</li>
+            <li>Keyboard</li>
+        </ol>
+        <hr>
+        <p>And it's code is written as:</p>
+        <center><img src="../Media/Img/20.png" alt="" height="100"></center>
+        
+        <h2>Tables</h2>
+        <p>The <b>&lt;table&gt;</b> tag in HTML is used to define tables, which are used to format and display tabular data.</p>
+        <ul class="smart">
+            <li><b>&lt;tr&gt;</b> tag: Used to display table row.</li>
+            <li><b>&lt;td&gt;</b> tag: Used to display table.</li>
+            <li><b>&lt;th&gt;</b> tag: Used in place of table data for displaying table heanders.</li>
+        </ul>
+
+        <br>
+        <p>We can define as many table rows as we want. To add a caption to the table, we use
+<b>&lt;caption&gt;</b> tag inside table.</p>
+
+            <ul class="smart">
+            <li><b>&lt;thead&gt;</b> tag: Used to wrap table head (<b>&lt;caption&gt;</b> and <b>&lt;tr&gt;</b> with <b>&lt;th&gt;</b>)</b></li>
+            <li><b>&lt;tbody&gt;</b> tag: Used to wrap the table body.</li>
+            </ul>
+            <br>
+        
+            <p><b><i>Example:</i></b></p>
+            <center><img src="../Media/Img/21.png" alt="" height="500"></center>
+
+            <h3 style="color: rgb(190, 126, 6);">Colspan Attribute</h3>
+            <p>This attribute is used to create cells spanning multiple columns.</p>
+            <center><img src="../Media/Img/22.png" alt="" height="30"></center>
+
+            <h2>HTML Forms</h2>
+            An HTML <b>&lt;form&gt;</b> tag is used to create a form that collects input from users.
+            <br><br>
+            <center><img src="../Media/Img/23.png" alt="" height="250"></center>
+            <p>There are different form elements for different kinds of user input.</p>
+            <ul class="smart">
+                <li><b>&lt;input&gt;</b> element: : Can be of type text, checkbox, radio, button and submit.
+We also have a &#8216file&#8217 type.</li>
+                <li><b>&lt;textarea&gt;</b> element:  Defines a multiline text input &#8216cols&#8217 and &#8216rows&#8217
+attributes can be used to size the text area.</li>
+                <li><b>&lt;slect&gt;</b> element: Defines a drop-down list.</li>
+            </ul>
+
+            <p><i><b>Note:</b> You don&#8217t have to remember all the tags, you will automatically memorize them
+with practice.</i></p>
+
+            <h2>Embedding Videos</h2>
+            <p>To embed videos in HTML, you can use the generally, <b>&lt;video&gt;</b> tag for embedding local videos in local machine and <b>&lt;iframe&gt;</b> for publicly avaialable videos on Internet such as from YouTube along with various attributes to
+control its behavior when it comes to embedding local videos.</p>
+            <hr>
+            <h3 style="color: rgb(190, 126, 6);">Attributed for Video</h3>
+            <p>We can use the following attributes:</p>
+            <br>
+            <ul class="smart">
+                <li><b>src</b>: Specifies the URL of the video file (video.mp4 in this case).</li>
+                <li><b>width</b>: Adjusts the width of the video player. Height adjusts automatically to maintain aspect ratio.</li>
+                <li><b>controls</b>: Displays video controls such as play, pause, volume, etc.</li>
+                <li><b>autoplay</b>: Automatically starts playing the video when the page loads.</li>
+                <li><b>loop</b>: Causes the video to automatically start over from the beginning when it reaches the end.</li>
+                <li><b>preload</b>: Specifies whether the video should be loaded when the page loads (auto, metadata, none).</li>
+            </ul>
+
+            <p><b>Code to embedd YouTube videos:</b></p>
+                <center><img src="../Media/Img/24.png" alt="" height="40"></center>
+
+                <p><b>The following YouTube video is embedded in this HTML file using same tag.</b></p>
+               
+            <center>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/RlqeuloC2AY" height="350" width="622"></iframe>
+            </div>
+            </center>
+
+
+    </main>
+    <button onclick="window.location.href='../PracSets/P5.html'">
+  Continue to Chapter 5 Practice Set &raquo;&raquo;&raquo;
+</button>
+
+
+    <footer>
+    <div>
+        <big>Designed by: Anand Prashant | Source of Content: <a href="https://codewithharry.com"
+                target="_blank">CodeWithHarry</a></big>
+    </div>
+    </footer>
+</body>
+</html>
