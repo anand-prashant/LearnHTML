@@ -103,7 +103,7 @@ To learn HTML in a peaceful, structured, and fun way.
 To build a strong base for CSS, JS, and future full-stack skills.
 To keep all my experiments in one place.
 To share my knowledge to other students as a usable website. I have added a lot of questions here.
-🔗 **Live Preview:**  
+## 🔗 Live Preview:
 This project is live here: **https://anand-prashant.github.io/LearnHTML**
 
 This repo grows as I grow.
